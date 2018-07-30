@@ -29,4 +29,5 @@ _add_boost_lib(
     Boost::serialization
 )
 target_include_directories(Boost_mpi PUBLIC ${MPI_CXX_INCLUDE_PATH})
+string(STRIP "${MPI_CXX_LINK_FLAGS}" MPI_CXX_LINK_FLAGS)
 target_link_libraries(Boost_mpi PUBLIC ${MPI_CXX_LINK_FLAGS} ${MPI_CXX_LIBRARIES})
