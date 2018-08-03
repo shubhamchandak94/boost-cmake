@@ -19,7 +19,7 @@ endif()
 option(BOOST_LOCALE_ENABLE_ICU_BACKEND "Enable ICU backend in Boost Locale if available" ON)
 option(BOOST_LOCALE_ENABLE_ICONV_BACKEND "Enable Iconv backend in Boost Locale if available" ON)
 option(BOOST_LOCALE_ENABLE_WINAPI_BACKEND "Enable Winapi backend in Boost Locale if available" ${BOOST_LOCALE_ENABLE_WINAPI_BACKEND_DEFAULT})
-option(BOOST_LOCALE_ENABLE_STD_BACKEND "Enable STD backend in Boost Locale if available" ON)
+option(BOOST_LOCALE_ENABLE_STD_BACKEND "Enable STD backend in Boost Locale if available" OFF)
 option(BOOST_LOCALE_ENABLE_POSIX_BACKEND "Enable Posix backend in Boost Locale if available" ${BOOST_LOCALE_ENABLE_POSIX_BACKEND_DEFAULT})
 
 if(BOOST_LOCALE_ENABLE_ICU_BACKEND)

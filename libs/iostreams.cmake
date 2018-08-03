@@ -1,4 +1,4 @@
-option(BOOST_IOSTREAMS_ENABLE_BZIP2 "Enable bzip2 support in Boost Iostreams if available" OFF)
+option(BOOST_IOSTREAMS_ENABLE_BZIP2 "Enable bzip2 support in Boost Iostreams if available" ON)
 option(BOOST_IOSTREAMS_ENABLE_ZLIB "Enable zlib support in Boost Iostreams if available" ON)
 
 _add_boost_lib(
