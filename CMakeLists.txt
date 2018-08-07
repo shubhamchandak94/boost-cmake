@@ -40,9 +40,9 @@ set(BOOST_LIBS_OPTIONAL
   exception
   fiber
   filesystem
-  graph
-  iostreams
-  locale
+# graph
+# iostreams
+# locale
   log
   math
   mpi
@@ -50,7 +50,7 @@ set(BOOST_LIBS_OPTIONAL
   program_options
   #python # complex module
   random
-  regex
+ #regex
   serialization
   signals
   system
